@@ -10983,9 +10983,9 @@
 		    require('IframeTransport')
 		];
 		var knownLoginUis = [ // In order of preference
-		    require('WebAuthBroker'),
 		    require('CordovaPopup'),
-		    require('BrowserPopup')
+		    require('BrowserPopup'),
+		    require('WebAuthBroker')
 		];
 		
 		// Matches an ISO date and separates out the fractional part of the seconds
